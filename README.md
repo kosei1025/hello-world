@@ -1,4 +1,5 @@
 # hello-world
 このリポジトリはGitHub Flowを実行するためのリポジトリです
-初めまして。中澤航世といいます。このりどむは、GitHubの勉強用に簡易的に作成をしています。
-よろしくお願いします。
+
+I failed to change branch's file. I gonna try again.
+
