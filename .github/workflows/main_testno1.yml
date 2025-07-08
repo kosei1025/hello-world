@@ -31,3 +31,4 @@ jobs:
           app-name: 'testno1'  # ← Azure Web App の名前に置き換えてください
           slot-name: 'Production'
           package: .
+          resource-group-name: 'kensyou1'
