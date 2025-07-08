@@ -1,24 +1,22 @@
-
 name: Deploy static site to Azure Web App
 
 on:
-  push:
-    branches:
-      - main
-  workflow_dispatch:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
-  deploy:
-    runs-on: ubuntu-latest
+  deploy:
+    runs-on: ubuntu-latest
 
-    permissions:
-      id-token: write
-      contents: read
+    permissions:
+      id-token: write
+      contents: read
 
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
 
       - name: Login to Azure
         uses: azure/login@v2
