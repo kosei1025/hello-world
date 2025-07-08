@@ -28,7 +28,6 @@ jobs:
       - name: Deploy static files to Azure Web App
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'testno1'  # ← Azure Web App の名前に置き換えてください
-          slot-name: 'Production'
+          app-name: 'testno1'  # ← Azure Web App の名前に置き換えてくださ
           package: .
           resource-group-name: 'kensyou1'
