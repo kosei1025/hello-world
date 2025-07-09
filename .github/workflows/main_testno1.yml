@@ -30,5 +30,5 @@ jobs:
         with:
           app-name: 'testno1'  # ← Azure Web App の名前に置き換えてくださ
           slot-name: 'Production'
-          package: ./public
+          package: .
           resource-group-name: 'kensyou1'
