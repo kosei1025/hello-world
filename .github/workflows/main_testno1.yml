@@ -18,6 +18,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Zip site contents
+        run: zip -r site.zip .
+
       - name: Login to Azure
         uses: azure/login@v2
         with:
@@ -28,7 +31,7 @@ jobs:
       - name: Deploy static files to Azure Web App
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'testno1'  # ← Azure Web App の名前に置き換えてくださ
+          app-name: 'testno1'
           slot-name: 'Production'
-          package: .
+          package: site.zip
           resource-group-name: 'kensyou1'
