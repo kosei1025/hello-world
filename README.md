@@ -1,2 +1,2 @@
 # hello-world
-このリポジトリはGitHub Flowを実行するためのリポジトリです
+このリポジトリはAzure App Serviceと連携して静的webサイトを公開するためのリポジトリです
