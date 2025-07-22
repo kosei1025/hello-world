@@ -1,13 +1,30 @@
-
 body {
   font-family: sans-serif;
   line-height: 1.6;
   background-color: #4682b4;
   padding: 2em;
+  margin: 0;
 }
 
-h1 {
+.title {
+  text-align: center;
   color: #2c3e50;
+  margin-bottom: 2em;
+}
+
+.container {
+  display: flex;
+  gap: 2em;
+  align-items: flex-start;
+}
+
+.image-area {
+  flex: 1;
+}
+
+.text-area {
+  flex: 1;
+  color: #fff;
 }
 
 p {
