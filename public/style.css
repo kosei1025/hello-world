@@ -1,0 +1,15 @@
+
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  background-color: #4682b4;
+  padding: 2em;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+p {
+  margin-bottom: 1em;
+}
